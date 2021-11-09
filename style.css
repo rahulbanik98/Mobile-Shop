@@ -2,6 +2,11 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
 }
 
 .nav
@@ -13,6 +18,8 @@
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
     position: fixed;
+    top: 0;
+    left: 0;
     background-color: rgb(224, 224, 223);
 }
 
@@ -145,10 +152,15 @@ a.right:hover::before
 
 
 /*--------------------------------Three Image--------------------------------*/
-.three-picture >div
+
+.three-picture {
+    display: flex;
+    justify-content: center;
+}
+.three-picture > div
 {
-    margin-top: 50%;
-    float: left;
+    margin-top: 2.4rem;
+    width: 330px;
     margin: 4%;
     padding-left: 25px;
 }
@@ -165,7 +177,7 @@ a.right:hover::before
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     animation-name: example;
-    animation-duration: 0.30s;
+    animation-duration: 0.4ms;
     border-left: 10px solid tomato;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -190,4 +202,5 @@ a.right:hover::before
     color: red;
     text-align: center;
     font-size: 70px;
+    margin-top: 2.4rem;
 }
