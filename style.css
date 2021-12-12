@@ -488,7 +488,27 @@ a.right:hover::before
     margin-top: 100px;
 }
 
-.three-picture > div > img:hover
+.btn
+{
+    background-color: black;
+    color: white;
+    height: 7%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.two-picture .button-four 
+{
+    height: 9%;
+    width: 40%;
+}
+
+.two-picture .button-five
+{
+    height: 9%;
+    width: 40%;
+}
+/* .three-picture > div > img:hover
 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -504,7 +524,7 @@ a.right:hover::before
     25%  {border-left: 3px solid #ffe6e6;}
     50%  {border-left: 4px solid #ff8080;}
     100% {border-left: 5px solid tomato}
-}
+} */
 
 /*--------------------Two Image----------------------*/
 
