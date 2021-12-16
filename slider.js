@@ -61,8 +61,8 @@ function fifthslideShow ()
     document.getElementById("firstImage").src="./slideImg/slide-img.jpg";
 }
 
-setInterval(firstslideShow, 2000);
-setInterval(secondslideShow, 4000);
-setInterval(thirdslideShow, 6000);
-setInterval(fourthslideShow, 8000);
-setInterval(fifthslideShow, 100000);
+setInterval(firstslideShow, 5000);
+setInterval(secondslideShow, 10000);
+setInterval(thirdslideShow, 15000);
+setInterval(fourthslideShow, 200000);
+setInterval(fifthslideShow, 250000);
