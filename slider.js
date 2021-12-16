@@ -35,3 +35,34 @@ function showSlides(n)
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
 }
+
+function firstslideShow ()
+{
+    document.getElementById("firstImage").src="./slideImg/slide-img-1.jpg";
+}
+
+function secondslideShow ()
+{
+    document.getElementById("firstImage").src="./slideImg/slide-img-2.jpg";
+}
+
+function thirdslideShow ()
+{
+    document.getElementById("firstImage").src="./slideImg/slide-img-3.jpg";
+}
+
+function fourthslideShow ()
+{
+    document.getElementById("firstImage").src="./slideImg/slide-img-4.jpg";
+}
+
+function fifthslideShow ()
+{
+    document.getElementById("firstImage").src="./slideImg/slide-img.jpg";
+}
+
+setInterval(firstslideShow, 2000);
+setInterval(secondslideShow, 4000);
+setInterval(thirdslideShow, 6000);
+setInterval(fourthslideShow, 8000);
+setInterval(fifthslideShow, 100000);
