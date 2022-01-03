@@ -1,0 +1,135 @@
+.slider
+{
+  background-image: linear-gradient(to right, rgb(252, 231, 192), rgb(214, 171, 245), rgb(248, 248, 179));
+  width: 100%;
+  margin-top: 10%;
+  /* margin-left: 40%; */
+  box-sizing: border-box;
+  background-attachment: flex;
+  background-size: cover;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
+.car
+{
+  margin-top: 13%;
+  margin-left: 41.5%;
+  height: 65vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  perspective: 100rem;
+}
+
+.car-cards
+{
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  transform-style: preserve-3d;
+  transform: translateZ(-25rem);
+  transition: transform 0.3s ease-in;
+}
+
+.one
+{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.car-card
+{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid white;
+  border-radius: 0.2rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.car-card:nth-child(1)
+{
+  transform: rotateY(0deg) translateZ(25rem);
+}
+
+.car-card:nth-child(2)
+{
+  transform: rotateY(45deg) translateZ(25rem);
+}
+
+.car-card:nth-child(3)
+{
+  transform: rotateY(90deg) translateZ(25rem);
+}
+
+.car-card:nth-child(4)
+{
+  transform: rotateY(135deg) translateZ(25rem);
+}
+
+.car-card:nth-child(5)
+{
+  transform: rotateY(180deg) translateZ(25rem);
+}
+
+.car-card:nth-child(6)
+{
+  transform: rotateY(225deg) translateZ(25rem);
+}
+
+.car-card:nth-child(7)
+{
+  transform: rotateY(270deg) translateZ(25rem);
+}
+
+.car-card:nth-child(8)
+{
+  transform: rotateY(315deg) translateZ(25rem);
+}
+
+.carousel_btn
+{
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #00599c;
+  padding: 0.5em 1em;
+  color: aliceblue;
+  font-size: 1.2em;
+  margin: 0 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30%;
+}
+
+.carousel_btn:hover
+{
+  transform: scale(1.04);
+  background: rgba(0, 0, 0, 0.705);
+}
+
+.carousel_control
+{
+  margin-top: 25%;
+  width: 100%;
+  position: relative;
+  margin-right: 42%;
+  margin-left: -17%;
+}
+
+.back
+{
+  margin-right: 10%;
+}
+
+.Next
+{
+  margin-right: 5%;
+}
+
