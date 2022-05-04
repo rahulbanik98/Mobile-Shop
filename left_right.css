@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+:root
+{
+    --backGround: linear-gradient(to right, rgb(252, 231, 192), rgb(214, 171, 245), 
+    rgb(248, 248, 179));
+    --fontStyle: Lora;
+}
+
+.mobile
+{
+    box-shadow: 0 0 0 1px rgb(48, 49, 49);
+    border-radius: 40px 0px 0px 40px;
+    margin-left: 10%;
+    background-image: var(--backGround);
+    padding-bottom: 30%;
+    box-sizing: border-box;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.left-mobile
+{
+    height: 30rem;
+    /* background-color: black;  */
+    margin-top: 2%;
+    float: left;
+    width: 44.5%;
+}
+
+.right-mobile
+{ 
+    margin-right: 1%;
+    float: right;
+    width: 41%;
+    padding-bottom: 8%;
+    margin-left: 5%;
+}
+
+svg text
+{
+    letter-spacing: 5.5px; 
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    font-family: var(--fontStyle);
+    stroke: hsl(40, 91%, 79%);
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;
+}
+
+svg text:last-child
+{
+    margin-top: 65rem;
+    letter-spacing: 5.5px; 
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    font-family: var(--fontStyle);
+    stroke:  hsl(40, 91%, 79%);
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;   
+}
+
+#dth_btton,
+#recharge_btton
+{
+    color: black;
+    background-color: blueviolet;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#dth_btton:hover,
+#recharge_btton:hover
+{
+    animation: change 2s ;
+}
+
+@keyframes change
+{
+    0%
+    {
+        opacity: 10%;
+        background-color: rgb(247, 243, 250);
+    }
+    
+    20%
+    {
+        opacity: 20%;
+        background-color: rgb(230, 212, 247);
+    }
+    
+    30%
+    {
+        opacity: 10%;
+        background-color: rgb(223, 197, 247);
+    }
+    
+    40%
+    {
+        opacity: 40%;
+        background-color: rgb(220, 184, 253);
+    }
+    
+    50%
+    {
+        opacity: 80%;
+        background-color: rgb(201, 152, 247);
+    }
+    
+    60%
+    {
+        opacity: 60%;
+        background-color: rgb(187, 121, 248);
+    }
+    
+    70%
+    {
+        opacity: 70%;
+        background-color: rgb(182, 107, 252);
+    }
+    
+    80%
+    {
+        opacity: 80%;
+        background-color: rgb(166, 72, 255);
+    }
+    
+    90%
+    {
+        opacity: 90%;
+        background-color: rgb(148, 34, 255);
+    }
+    
+    100%
+    {
+        opacity: 100%;
+        background-color: rgb(132, 8, 248);
+    }
+
+}
+
+.form_1
+{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+.form_1 > label
+{
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+}
+
+.form_2 > label
+{
+    font-size: 30px;
+    font-family: 'Arvo', serif;
+}
+
+#mobile_recharge, 
+#dth_recharge
+{
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    background-color: azure;
+}
+
+#vi
+{
+    background-color: rgba(191, 243, 142, 0.753);
+}
+
+#jio
+{
+    background-color: rgba(209, 175, 241, 0.603);
+}
+
+#aitel
+{
+    background-color: rgba(199, 138, 59, 0.801);
+}
+
+#bsnl
+{
+    background-color: rgba(205, 236, 236, 0.644);
+}
+
+#tata_sky
+{
+    background-color: rgba(191, 243, 142, 0.753);
+}
+
+#dish_tv
+{
+    background-color: rgba(209, 175, 241, 0.603);
+}
+
+#airtel_tv
+{
+    background-color: rgba(199, 138, 59, 0.801);
+}
+
+#sun_tv
+{
+    background-color: rgba(205, 236, 236, 0.644);
+}
+
+@keyframes textAnimate 
+{
+   0% 
+   {
+     stroke-dasharray: 0 50%;
+     stroke-dashoffset:  20%;
+     fill:hsl(303, 80%, 76%)
+    }
+   
+    100%
+    {
+     stroke-dasharray: 50% 0;
+     stroke-dashoffstet: -20%;
+     fill: rgb(65, 64, 64)
+    }
+}

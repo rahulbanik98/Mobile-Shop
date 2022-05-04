@@ -1,0 +1,17 @@
+.counter-div > div:nth-child(1)
+{
+    background-color: aliceblue;
+    float: left;
+}
+
+.counter-div > div:nth-child(3)
+{
+    background-color: aliceblue;
+    
+}
+
+.counter-div > div:nth-child(3)
+{
+    background-color: aliceblue;
+    float: right;
+}
