@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+:root
+{
+    --backGround: linear-gradient(to right, rgb(252, 231, 192), rgb(214, 171, 245), 
+    rgb(248, 248, 179));
+    --fontStyle: Lora;
+}
+
+.serMain
+{
+    box-shadow: 0 0 0 1px rgb(48, 49, 49);
+    border-radius: 40px 0px 0px 40px;
+    margin-left: 10%;
+    background-image: var(--backGround);
+    padding-bottom: 30%;
+    box-sizing: border-box;
+    margin-bottom: 6%;
+}
+
+.left-ser
+{
+    height: 30rem;
+    /* background-color: black;  */
+    margin-top: 2%;
+    float: left;
+    width: 42%;
+}
+
+.right-ser
+{ 
+    float: right;
+    width: 50%;
+    padding-bottom: 8%;
+    margin-left: 5%;
+}
+
+.Svg text
+{
+    letter-spacing: 5.5px; 
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    font-family: var(--fontStyle);
+    stroke: hsl(40, 91%, 79%);
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;
+}
+
+.Svg text:last-child
+{
+    margin-top: 65rem;
+    letter-spacing: 5.5px; 
+    font-size: 110px;
+    font-weight: 900;
+    text-align: center;
+    font-family: var(--fontStyle);
+    stroke:  hsl(40, 91%, 79%);
+    stroke-width: 3;
+    animation: textAnimate 5s infinite alternate;   
+}
+
+/* RIGHT SIDE */
+
+
+.right-ser
+{
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.right-ser > .rep-Text
+{
+    float: left;
+    border-left: 2px solid wheat;
+    border-bottom: 2px solid wheat;
+    border-right: 2px solid wheat;
+    background-color:  rgb(220, 241, 235);
+    box-shadow: 10px 10px gray;
+    width: 45%;
+    height: 300px;
+    margin-right: 5px;
+}
+
+.rep-Text > h1
+{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.rep-Text > p
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.right-ser > .main-ser
+{
+    float: right;
+    border-left: 2px solid wheat;
+    border-bottom: 2px solid wheat;
+    border-right: 2px solid wheat;
+    background-color:  rgb(220, 241, 235);
+    box-shadow: 10px 10px gray;
+    color:#0a9396;
+    width: 45%;
+    height: 300px;
+}
+
+.main-ser > h1
+{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.main-ser > p
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.rep-text-p
+{
+    animation: an 1s ease-out 1 both;
+}
+
+.ser-text
+{
+    animation: an 1s ease-out 1 both;
+}
+
+@keyframes an
+{
+    from
+    {
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+    }
+    to
+    {
+        opacity: 1;
+        transform: perspective(500px)
+        translate3d(0,0,0);
+    }
+}
+
